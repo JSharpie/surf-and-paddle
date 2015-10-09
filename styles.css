@@ -112,10 +112,18 @@ body > div.container > section.cols.main-col > div:nth-child(2) > a > img{
 body > div.container > section.cols.main-col > div:nth-child(2) > p{
   margin:0;
   padding:0;
+  position:relative;
   text-align:right;
+  bottom: 35px;
+  right: 375px;
+}
+body > div.container > section.cols.main-col > div:nth-child(2) > p > a{
+  color:lightgray;
 }
 body > div.container > section.cols.main-col > div:nth-child(2){
   display:inline-block;
+  position: relative;
+  bottom: 50px;
 }
 .cols.side-col > div:nth-child(2) > a > img{
   width:inherit;
@@ -207,11 +215,21 @@ h4{
   color:lightgray;
   text-decoration:none;
 }
+#ad a{
+  text-decoration:none;
+  color:lightgray;
+}
 #ad{
   text-decoration:underline;
   color:lightgray;
   text-align:right;
   font-size:1vw;
+}
+.cols.main-col > p > a{
+  color:lightblue;
+}
+.cols.main-col > p > a:visited{
+  color:lightgray;
 }
 .container-2{
   border-top:1px solid lightgray;
