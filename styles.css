@@ -289,6 +289,9 @@ h3{
   width:80%;
   height:100%;
   position:absolute;
+  color:black;
+}
+h3:hover, .col-4:hover h3{
   color:white;
 }
 .foot{
@@ -325,4 +328,163 @@ h3{
 }
 .foot li:nth-child(4) a{
   border:none;
+}
+@media (max-width:500px){
+  .author {
+    display:none;
+  }
+  #head > nav > ul > li:nth-child(1) > a{
+    font-size:12px;
+    position:relative;
+    top:10px;
+    left:110px;
+  }
+  #head > nav > ul > li:nth-child(2) > a{
+    font-size:12px;
+    position:relative;
+    top:10px;
+    left:120px;
+  }
+  #head > h1{
+    position:relative;
+    top:20px;
+    color:black;
+  }
+  #head > p{
+    position:relative;
+    top:5px;
+    font-size:12px;
+  }
+  #head > img.search{
+    width:10px;
+    height:10px;
+    position:relative;
+    left:175px;
+    bottom:3px;
+  }
+  #head > nav > ul > li:nth-child(3){
+    display:none;
+  }
+  #head > img:nth-child(1)
+  .side-col{
+    display:block;
+  }
+  .side-col p, .side-col h5{
+    display:none;
+  }
+  #head > img:nth-child(1){
+    width:25px;
+    height:25px;
+    position:absolute;
+    left:120px;
+    top:30px;
+  }
+  body > div.container > section.cols.main-col > div.share-bar > ul > li:nth-child(1) > a:nth-child(2) > h6{
+    display:none;
+  }
+  body > div.container > section.cols.main-col > div.share-bar > ul > li:nth-child(2) > a:nth-child(2) > h6{
+    display:none;
+  }
+  body > div.container > section.cols.main-col > div.share-bar > ul > li:nth-child(3) > a:nth-child(2) > h6{
+    display:none;
+  }
+  .main-col{
+    width:80%;
+  }
+  body > div.container > section.cols.main-col > h1{
+    font-size:50px;
+    margin:0 auto;
+  }
+  body > div.container > section.cols.main-col > div:nth-child(2) > p{
+    font-size:12px;
+    position:relative;
+    top:50px;
+    left:0;
+  }
+  body > div.container > section.cols.main-col > div:nth-child(2) > p > span{
+    display:none;
+  }
+  body > div.container > section.cols.side-col > div:nth-child(1) > div > a > img{
+    width:75px;
+    margin-top:10px;
+  }
+  body > div.container > section.cols.side-col > div:nth-child(1) > a > h4{
+    font-size:15px;
+  }
+  .side-col{
+    position:relative;
+    left:22.5px;
+    width:80%;
+  }
+  body > div.container > section.cols.side-col > div > ul > li > a{
+    position:relative;
+    bottom:5px;
+    font-size:10px;
+  }
+  body > div.container > section.cols.side-col > div:nth-child(2) > div > a > img{
+    width:300px;
+    position: relative;
+    right: 30px;
+  }
+  div img{
+    max-width:135%;
+  }
+  #ad{
+    display:block;
+    position:relative;
+    top:5px;
+    left:35px;
+    font-size:15px;
+  }
+  .container-2{
+    position:relative;
+    top:30px;
+    padding-top:20px;
+  }
+  .cols{
+    display:block;
+  }
+  .col-4{
+    position:relative;
+    left:35px;
+    width:200px;
+  }
+  h3{
+    margin-top: 18%;
+    margin-left: 2.2%;
+    font-size: 20px;
+    z-index: 100;
+    font-family: sans-serif;
+    width: 80%;
+    height: 100%;
+    position: absolute;
+    top:150px;
+    left:10px;
+    color: black;
+  }
+  .foot{
+    position:relative;
+    top:30px;
+  }
+  .foot ul{
+    position:relative;
+    left:20px;
+    bottom:30px;
+  }
+  body > div.foot > nav > ul > li:nth-child(3) > a{
+    border-right:none;
+  }
+  body > div.foot > nav > ul > li:nth-child(4){
+    position:relative;
+    right:97px;
+  }
+  body > div.foot > p{
+    display:block;
+    font-size:12px;
+    width:100px;
+    text-align:center;
+    position:relative;
+    top:80px;
+    left:97px;
+  }
 }
